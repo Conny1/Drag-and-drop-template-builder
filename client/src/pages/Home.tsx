@@ -1,7 +1,16 @@
-import React from "react";
+import styled from "styled-components";
+import { TemplateCreater } from "../components/dashboard";
+
+const HomeContainer = styled.div`
+  min-height: 100vh;
+`;
 
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <HomeContainer>
+      <TemplateCreater />
+    </HomeContainer>
+  );
 };
 
 export default Home;
